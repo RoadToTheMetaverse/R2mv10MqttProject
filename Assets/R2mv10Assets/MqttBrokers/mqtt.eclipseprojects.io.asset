@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303fcdfd14b049ccbacd137caeeb1d5c, type: 3}
+  m_Name: mqtt.eclipseprojects.io
+  m_EditorClassIdentifier: 
+  brokerAddress: mqtt.eclipseprojects.io
+  brokerPort: 1883
+  isEncrypted: 0
+  connectionDelay: 500
+  timeoutOnConnection: 30000
+  autoConnect: 1
+  userName: 
+  password: 
+  topics:
+  - R2mvDemo/cc1
+  - R2mvDemo/cc2
+  - R2mvDemo/cc3
+  - R2mvDemo/cc4
+  - R2mvDemo/cc5
+  - R2mvDemo/cc6
+  - R2mvDemo/cc7
+  - R2mvDemo/cc8
+  - R2mvDemo/t1
+  - R2mvDemo/t2
+  - R2mvDemo/t3
+  - R2mvDemo/t4
+  - R2mvDemo/t5
+  - R2mvDemo/t6
+  - R2mvDemo/t7
+  - R2mvDemo/t8
